@@ -23,24 +23,24 @@ First you will need to make an .env with your value | Check the file in the repo
 
 After that you will need to make a folder env so you don't gonna use the variables which is in your pc
 
-```http
+```bash
   python -m venv env
 ```
 The command above will create a folder env for the environement 
 
 After that you have the folder env and the .env need you will use this command below to use the values in the .env
 
-```http
+```bash
   pip install python-dotenv
 ```
 Configuration from environment variables so you will be able to take the value of the secret
 
 And to finish you will make the main.py and add this command there: 
-```http
+```python
   from dotenv import load_dotenv
 ```
 And just under the command above you use this : 
-```http
+```python
   load_dotenv()
 ```
 
